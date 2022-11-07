@@ -1,7 +1,6 @@
 # mycode (Project Title)
 
-One Paragraph of your project description goes here. Describe what you're trying to do.
-What is the purpose of putting up this repo?
+Repository to hold python3 projects
 
 ## Getting Started
 
@@ -11,8 +10,7 @@ on a live system.
 
 ### Prerequisites
 
-What things are needed to install the software and how to install them. For now, maybe copy in
-"how to install python and python3 using apt."
+Install python3
 
 ## Built With
 
@@ -20,4 +18,4 @@ What things are needed to install the software and how to install them. For now,
 
 ## Authors
 
-* **Your Name** - *Initial work* - [YourWebsite](https://example.com/)
+* **Marlena Brammer** - *Initial work* - [YourWebsite](https://example.com/)
