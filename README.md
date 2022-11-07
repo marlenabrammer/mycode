@@ -1,4 +1,4 @@
-# mycode (Project Title)
+# mycode (Python Repo)
 
 Repository to hold python3 projects
 
