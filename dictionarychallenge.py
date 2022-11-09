@@ -3,6 +3,9 @@ def main():
 
     char_name = input("Which character do you want to know about? (Starlord, Mystique, Hulk)")
     char_stat = input("What statistic do you want to know about? (real name, powers, archenemy)")
+    
+    char_name = char_name.lower().capitalize()
+    char_stat = char_stat.lower()
 
     marvelchars= {
     "Starlord":
