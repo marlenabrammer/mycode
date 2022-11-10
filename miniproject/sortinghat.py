@@ -1,5 +1,6 @@
- 
+#!/usr/bin/env python3
 
+#dictionary to hold the scores
 house_counter={'gryffindor':0,'ravenclaw':0,'huffelpuff':0, 'slytherin':0}
 
 question1 = input("Enter the number of your favorite color?:\n1) Maroon\n2) Blue\n3) Yellow\n4) Green\n")
@@ -70,6 +71,7 @@ elif question5=='4':
 else:
     print("Invalid input")
     
-#print(house_counter.values())
+#figure out the max value in the dictionary
 max_value = max(house_counter,key=house_counter.get)
+#print the hogwarts house
 print("Your house is " + max_value + "!!!!!!!")
