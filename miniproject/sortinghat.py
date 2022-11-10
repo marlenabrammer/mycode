@@ -43,6 +43,33 @@ elif question3=='4':
 else:
     print("Invalid input")
 
+
+question4 = input("Choose your ideal occupation:\n1)Auror\n2)Scientist\n3)Herbology Teacher\n4)Politician\n")
+
+if  question4=='1':
+    house_counter['gryffindor']+=1
+elif question4=='2':
+    house_counter['ravenclaw']+=1
+elif question4=='3':
+    house_counter['huffelpuff']+=1
+elif question4=='4':
+    house_counter['slytherin']+=1
+else:
+    print("Invalid input")
+
+question5=input("If you looked into the Mirror of Erised, what would you see?\n1)Me, on an adventure around the world\n2)Me, in a quiet room with plenty of books\n3)Me, surrounded by family and friends\n4)Me, financially successful in life\n")
+
+if  question5=='1':
+    house_counter['gryffindor']+=1
+elif question5=='2':
+    house_counter['ravenclaw']+=1
+elif question5=='3':
+    house_counter['huffelpuff']+=1
+elif question5=='4':
+    house_counter['slytherin']+=1
+else:
+    print("Invalid input")
+    
 #print(house_counter.values())
 max_value = max(house_counter,key=house_counter.get)
 print("Your house is " + max_value + "!!!!!!!")
