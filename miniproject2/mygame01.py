@@ -7,7 +7,8 @@ def showInstructions():
     """Show the game instructions when called"""
     #print a main menu and the commands
     print('''
-    RPG Game: Get to the Garden with a key and potion
+    RPG Game: Get to the Garden with a key, potion and feather.\n
+    Watch out for the monsters, ahh!\n
     ========
     Commands:
       go [direction]
@@ -23,7 +24,8 @@ def showStatus():
     print('Inventory:', inventory)    
    # check if there's an item in the room, if so print it
     if "item" in rooms[currentRoom]:
-        print('You see a ' + rooms[currentRoom]['item'])
+       # for item in rooms[currentRoom]["item"]:
+        print("There is a: " + rooms[currentRoom]['item'])
     print("---------------------------")
 
 #set count to zero
@@ -52,7 +54,16 @@ rooms = {
                 },
             'Bedroom' : {
                     'east' : 'Hall',
+                    'west' : 'Bathroom',
+                    'north' : 'Sitting Room',
                     'item' : 'feather'
+                },
+            'Bathroom' : {
+                    'east' : 'Bedroom',
+                    'item' : 'monster'
+                },
+            'Sitting Room' : {
+                    'south' : 'Bedroom'
                 },
             'Garden' : {
                     'north' : 'Dining Room'
